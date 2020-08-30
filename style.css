@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(to bottom right, #00F490,#00BBC9);
+
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.jumbotron {
+    background-color: rgba(250, 235, 215, 0);
+    /* we are making the jumporton completely see through by making the oappacity set to 0, in this way we are removing the white bacground */
+}
+
+.dropshadow{
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15)
+  /* apllied on h1 inside jumborton ,our custom class*/
+}
+
+.lead {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+.btn-outline-light {
+    border-color: white;
+}
+
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.201);
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .mybox {
+            background-color: hotpink;
+            min-height: 120px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+
+        .my-fluid-container {
+            background-color: lightslategray;
+            min-height: 30px;
+        }
+
+        .mynest {
+            background-color: limegreen;
+            min-height: 170px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid my-fluid-container mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 mybox">Logo</div>
+                <div class="col mybox">Nav</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col mybox">
+                <p class="my-5 my-md-1 my-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maxime nihil voluptates corporis a
+                    quaerat saepe ea mollitia alias nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Expedita eaque alias fugit temporibus reiciendis quas eos incidunt beatae voluptatem ullam corrupti
+                    cum voluptas doloribus sapiente tenetur sit, labore natus tempore nam. Impedit saepe corporis nam,
+                    dolorum accusamus cumque rem recusandae.</p>
+                <div class="row">
+                    <div class="col mynest">Nest 1</div>
+                    <div class="col mynest">Nest 2</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mybox">
+                <div mybox>Feature 1</div>
+            </div>
+            <div class="col mybox">
+                <div class="mybox">Feature 2</div>
+            </div>
+            <div class="col mybox">
+                <div mybox>Feature 3</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
